@@ -1,0 +1,58 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://media.istockphoto.com/id/1144268851/photo/businessman-hand-touching-cyber-security-icon-over-blur-background-with-copy-space-business.jpg?b=1&s=612x612&w=0&k=20&c=EqxOlNajgerawR5izzn77SjiZu4YvlnREZphe1awWaM=);
+    background-size: cover;
+}
+.logintitle{
+    font-size: 50px;
+}
+
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform label{
+    margin: 10px 0;
+}
+
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginbutton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(145, 105, 105);
+}
+
+.loginregisterbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.error-message{
+    color: red;
+    margin-top: 20px;
+}
